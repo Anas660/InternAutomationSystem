@@ -1,0 +1,14 @@
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Interfaces\bin\Debug\StajyerApp.Interfaces.dll
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Interfaces\bin\Debug\StajyerApp.Interfaces.pdb
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Interfaces\bin\Debug\StajyerApp.Entities.dll
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Interfaces\bin\Debug\StajyerApp.Entities.pdb
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Interfaces\obj\Debug\StajyerApp.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Interfaces\obj\Debug\StajyerApp.Interfaces.dll
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Interfaces\obj\Debug\StajyerApp.Interfaces.pdb
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Interfaces\bin\Debug\StajyerApp.Interfaces.dll
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Interfaces\bin\Debug\StajyerApp.Interfaces.pdb
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Interfaces\bin\Debug\StajyerApp.Entities.dll
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Interfaces\bin\Debug\StajyerApp.Entities.pdb
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Interfaces\obj\Debug\StajyerApp.Interfaces.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Interfaces\obj\Debug\StajyerApp.Interfaces.dll
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Interfaces\obj\Debug\StajyerApp.Interfaces.pdb

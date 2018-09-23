@@ -1,0 +1,30 @@
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Infrastructure\bin\Debug\Interceptors\Interceptor.cs
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Infrastructure\bin\Debug\InversionOfControl.cs
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Infrastructure\bin\Debug\NativeMethods.cs
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Infrastructure\bin\Debug\StajyerApp.Infrastructure.dll
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Infrastructure\bin\Debug\StajyerApp.Infrastructure.pdb
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Infrastructure\bin\Debug\Castle.Core.dll
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Infrastructure\bin\Debug\Castle.Windsor.dll
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Infrastructure\bin\Debug\StajyerApp.Dal.dll
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Infrastructure\bin\Debug\StajyerApp.Interfaces.dll
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Infrastructure\bin\Debug\StajyerApp.Entities.dll
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Infrastructure\bin\Debug\StajyerApp.Dal.pdb
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Infrastructure\bin\Debug\StajyerApp.Interfaces.pdb
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Infrastructure\bin\Debug\StajyerApp.Entities.pdb
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Infrastructure\obj\Debug\StajyerApp.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Infrastructure\obj\Debug\StajyerApp.Infrastructure.dll
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Infrastructure\obj\Debug\StajyerApp.Infrastructure.pdb
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Infrastructure\bin\Debug\Interceptors\Interceptor.cs
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Infrastructure\bin\Debug\InversionOfControl.cs
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Infrastructure\bin\Debug\NativeMethods.cs
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Infrastructure\bin\Debug\StajyerApp.Infrastructure.dll
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Infrastructure\bin\Debug\StajyerApp.Infrastructure.pdb
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Infrastructure\bin\Debug\StajyerApp.Dal.dll
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Infrastructure\bin\Debug\StajyerApp.Interfaces.dll
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Infrastructure\bin\Debug\StajyerApp.Entities.dll
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Infrastructure\bin\Debug\StajyerApp.Dal.pdb
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Infrastructure\bin\Debug\StajyerApp.Interfaces.pdb
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Infrastructure\bin\Debug\StajyerApp.Entities.pdb
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Infrastructure\obj\Debug\StajyerApp.Infrastructure.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Infrastructure\obj\Debug\StajyerApp.Infrastructure.dll
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Infrastructure\obj\Debug\StajyerApp.Infrastructure.pdb

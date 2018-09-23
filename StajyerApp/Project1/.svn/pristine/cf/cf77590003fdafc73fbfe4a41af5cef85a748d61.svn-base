@@ -1,0 +1,74 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{0924EB2B-E025-4C98-AD49-8D95E17333DD}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StajyerApp.Bll</RootNamespace>
+    <AssemblyName>StajyerApp.Bll</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BolumManager.cs" />
+    <Compile Include="OkulManager.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="StajyerManager.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StajyerApp.Dal\StajyerApp.Dal.csproj">
+      <Project>{82667FF4-BA7D-4353-898D-203E91B00DDA}</Project>
+      <Name>StajyerApp.Dal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StajyerApp.Entities\StajyerApp.Entities.csproj">
+      <Project>{b67e022c-9792-41ac-9d05-d415991c2ae2}</Project>
+      <Name>StajyerApp.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StajyerApp.Infrastructure\StajyerApp.Infrastructure.csproj">
+      <Project>{efef7708-873c-438e-97e8-0de13ef1bf7e}</Project>
+      <Name>StajyerApp.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StajyerApp.Interfaces\StajyerApp.Interfaces.csproj">
+      <Project>{c0882c20-736a-4ab7-bb6a-77f9c6cc4d2b}</Project>
+      <Name>StajyerApp.Interfaces</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

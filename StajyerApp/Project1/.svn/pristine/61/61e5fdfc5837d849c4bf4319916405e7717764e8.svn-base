@@ -1,0 +1,61 @@
+﻿using StajyerApp.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using StajyerApp.Entities;
+using System.Data.SqlClient;
+using System.Data;
+
+namespace StajyerApp.Dal
+{
+    public class StajyerDal : IStajyer
+    {
+        public List<Stajyer> StajyerListe()
+        {
+
+            List<Stajyer> itemlist = null;
+            try
+            {
+                SqlCommand com = new SqlCommand("select * from Ogrenci");
+                //com.CommandType = CommandType.StoredProcedure;
+
+                //string sqlStr = "Data Source=193.1.1.17\\TVS_MSSQLSERVER;Initial Catalog=IK_TEST ;User ID=ebim; Password=11";
+                // string sqlCmd = "select * from Ogrenci";
+
+
+                if (com.Connection.State != ConnectionState.Open)
+                {
+                    com.Connection.Open();
+                }
+
+
+                SqlDataReader rdr = com.ExecuteReader();
+                if (rdr.HasRows)
+                {
+                    itemlist = new List<Stajyer>();
+                    while (rdr.Read())
+                    {
+                        Stajyer item = new Stajyer();
+                        item = new Stajyer();
+                        item.StajyerId = Convert.ToInt32(rdr["Id"]);
+                        item.OkulId = Convert.ToInt32(rdr["OkulId"]);
+                        itemlist.Add(item);
+
+
+                    }
+                }
+                rdr.Close();
+            }
+            catch
+            {
+                itemlist = null;
+
+            }
+            return itemlist;
+        }
+
+    }
+}
+

@@ -1,0 +1,10 @@
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Entities\bin\Debug\StajyerApp.Entities.dll
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Entities\bin\Debug\StajyerApp.Entities.pdb
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Entities\obj\Debug\StajyerApp.Entities.dll
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Entities\obj\Debug\StajyerApp.Entities.pdb
+C:\Users\ebim\Documents\Visual Studio 2015\Projects\Project1\StajyerApp.Entities\obj\Debug\StajyerApp.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Entities\bin\Debug\StajyerApp.Entities.dll
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Entities\bin\Debug\StajyerApp.Entities.pdb
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Entities\obj\Debug\StajyerApp.Entities.csprojResolveAssemblyReference.cache
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Entities\obj\Debug\StajyerApp.Entities.dll
+C:\Users\Admin\Desktop\Github icin\StajyerApp\Project1\StajyerApp.Entities\obj\Debug\StajyerApp.Entities.pdb

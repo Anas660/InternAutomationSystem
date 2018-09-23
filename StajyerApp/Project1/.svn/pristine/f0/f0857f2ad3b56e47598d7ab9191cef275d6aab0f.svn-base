@@ -1,0 +1,23 @@
+﻿using StajyerApp.Interfaces;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using StajyerApp.Entities;
+
+namespace StajyerApp.Bll
+{
+    public class StajyerManager : IStajyer
+    {
+        public IStajyer _IStajer { get; set; }
+        public StajyerManager()
+        {
+            _IStajer=  Infrastructure.InversionOfControl.Resolve<IStajyer>();
+        }
+        public List<Stajyer> StajyerListe()
+        {
+            return _IStajer.StajyerListe();
+        }
+    }
+}

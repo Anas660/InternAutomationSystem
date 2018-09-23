@@ -1,0 +1,163 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{9C94F94B-8475-4C07-9F67-5399DDCC0760}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>StajyerApp.WinForms</RootNamespace>
+    <AssemblyName>StajyerApp.WinForms</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup>
+    <StartupObject />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Accessibility" />
+    <Reference Include="DevExpress.Data.v15.2, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Printing.v15.2.Core, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Sparkline.v15.2.Core, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.Utils.v15.2, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraBars.v15.2, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraEditors.v15.2, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="DevExpress.XtraGrid.v15.2, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraLayout.v15.2, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a, processorArchitecture=MSIL" />
+    <Reference Include="DevExpress.XtraPrinting.v15.2, Version=15.2.7.0, Culture=neutral, PublicKeyToken=b88d1754d700e49a" />
+    <Reference Include="EntityFramework">
+      <HintPath>..\..\..\..\..\Desktop\ORCLTEST\IK.OrclDal\bin\Debug\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer">
+      <HintPath>..\..\..\..\..\Desktop\ORCLTEST\IK.OrclDal\bin\Debug\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.Linq" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Runtime.Serialization" />
+    <Reference Include="System.Runtime.Serialization.Formatters.Soap" />
+    <Reference Include="System.Security" />
+    <Reference Include="System.Transactions" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="frmBirimListele.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBirimListele.Designer.cs">
+      <DependentUpon>frmBirimListele.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmBolum.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmBolum.Designer.cs">
+      <DependentUpon>frmBolum.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmOkul.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmOkul.Designer.cs">
+      <DependentUpon>frmOkul.cs</DependentUpon>
+    </Compile>
+    <Compile Include="frmStajyer.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmStajyer.Designer.cs">
+      <DependentUpon>frmStajyer.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="frmBirimListele.resx">
+      <DependentUpon>frmBirimListele.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmBolum.resx">
+      <DependentUpon>frmBolum.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmOkul.resx">
+      <DependentUpon>frmOkul.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmStajyer.resx">
+      <DependentUpon>frmStajyer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\licenses.licx" />
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StajyerApp.Bll\StajyerApp.Bll.csproj">
+      <Project>{0924eb2b-e025-4c98-ad49-8d95e17333dd}</Project>
+      <Name>StajyerApp.Bll</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StajyerApp.Dal\StajyerApp.Dal.csproj">
+      <Project>{82667ff4-ba7d-4353-898d-203e91b00dda}</Project>
+      <Name>StajyerApp.Dal</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StajyerApp.Entities\StajyerApp.Entities.csproj">
+      <Project>{b67e022c-9792-41ac-9d05-d415991c2ae2}</Project>
+      <Name>StajyerApp.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StajyerApp.Infrastructure\StajyerApp.Infrastructure.csproj">
+      <Project>{efef7708-873c-438e-97e8-0de13ef1bf7e}</Project>
+      <Name>StajyerApp.Infrastructure</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StajyerApp.Interfaces\StajyerApp.Interfaces.csproj">
+      <Project>{c0882c20-736a-4ab7-bb6a-77f9c6cc4d2b}</Project>
+      <Name>StajyerApp.Interfaces</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StajyerApp.UnitTest\StajyerApp.UnitTest.csproj">
+      <Project>{cabd8e26-cfce-43e2-aa24-7f4ef7ebb9ab}</Project>
+      <Name>StajyerApp.UnitTest</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Properties\DataSources\StajyerApp.Entities.Birim.datasource" />
+    <None Include="Properties\DataSources\StajyerApp.Entities.Bolum.datasource" />
+    <None Include="Properties\DataSources\StajyerApp.Entities.Okul.datasource" />
+    <None Include="Properties\DataSources\StajyerApp.Entities.Stajyer.datasource" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

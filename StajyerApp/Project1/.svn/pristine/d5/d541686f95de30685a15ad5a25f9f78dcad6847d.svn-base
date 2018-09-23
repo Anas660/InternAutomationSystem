@@ -1,0 +1,101 @@
+﻿using StajyerApp.Bll;
+using StajyerApp.Entities;
+using System;
+using System.Collections.Generic;
+using System.ComponentModel;
+using System.Data;
+using System.Drawing;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using System.Windows.Forms;
+
+namespace StajyerApp.WinForms
+{
+    public partial class frmOkul : Form
+    {
+        public static int OkulID;
+        public frmOkul()
+        {
+            InitializeComponent();
+        }
+
+
+        private void frmOkul_Load(object sender, EventArgs e)
+        {
+            OkulListele();
+        }
+        private void OkulListele()
+        {
+            OkulManager okul = new OkulManager();
+            List<Okul> OkulListesi = okul.OkulListe();
+            gcOkul.DataSource = OkulListesi;
+        }
+
+        private void btnSave_Click(object sender, EventArgs e)
+        {
+            Okul okul1 = new Okul();
+            okul1.OkulAdi = editOkul.Text;
+
+            OkulManager okul = new OkulManager();
+           
+            if (okul.OkulInsert(okul1) != 0)
+            {
+                OkulListele();
+
+                MessageBox.Show("Okul ekleme işlemi başarılı!!");
+            }
+            else
+            {
+                MessageBox.Show("Okul eklerken bir hata meydana geldi lütfen destek talep ediniz.");
+            }
+        }
+
+        private void btnNew_Click(object sender, EventArgs e)
+        {
+            editOkul.ResetText();
+        }
+
+        private void btnUpdate_Click(object sender, EventArgs e)
+        {
+            Okul okul1 = new Okul();
+            okul1.OkulAdi = editOkul.Text;
+            okul1.OkulId = OkulID;
+            OkulManager okulUpdate = new OkulManager();
+
+            if (okulUpdate.OkulUpdate(okul1) != 0)
+            {
+                OkulListele();
+
+                MessageBox.Show("Okul bilgileri guncellestirildi!!");
+            }
+            else
+            {
+                MessageBox.Show("Okul guncellestirirken bir hata meydana geldi lütfen destek talep ediniz.Hata kodu : #98565");
+            }
+        }
+
+        private void gvOkul_RowCellClick(object sender, DevExpress.XtraGrid.Views.Grid.RowCellClickEventArgs e)
+        {
+            OkulID = Convert.ToInt32(gvOkul.GetRowCellValue(gvOkul.FocusedRowHandle, "OkulId"));
+            editOkul.Text = gvOkul.GetRowCellValue(gvOkul.FocusedRowHandle, "OkulAdi").ToString();
+        }
+
+        private void btnDelete_Click(object sender, EventArgs e)
+        {
+            Okul okul = new Okul();
+            okul.OkulId = OkulID;
+            OkulManager okulManager = new OkulManager();
+            if (okulManager.OkulDelete(okul) != 0)
+            {
+                OkulListele();
+                MessageBox.Show("Okul silindi !!");
+            }
+            else
+            {
+                MessageBox.Show("Okul silinirken bir hata meydana geldi lütfen destek talep ediniz.Hata kodu : #98565");
+            }
+        }
+
+    }
+}
